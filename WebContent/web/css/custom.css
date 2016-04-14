@@ -1,0 +1,389 @@
+@CHARSET "ISO-8859-1";
+
+.table th {
+	background-color: #10253F;
+	color: white;
+}
+
+
+.ocultoTransicion {
+	opacity: 0;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+
+.mostrar {
+	opacity: 1;
+}
+
+#windowLoadingDiv {
+	position: fixed;
+    /* center the element */
+    right: 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    /* give it dimensions */
+    height: 100%; /* puede ser cualquier valor en px o %*/
+    width: 100%; /* puede ser cualquier valor en px o %*/
+    /* loading image */
+    background-image: url("../img/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-position: center 40%;
+}
+
+
+/** Estilo boton app **/
+.navbar-toggle-2 {
+  position: absolute;
+  right: 15px;
+  top:8px;
+  height:35px;
+  width:36px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  }
+  .navbar-toggle-2:focus {
+    outline: 0; }
+  .navbar-toggle-2 .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px; }
+  .navbar-toggle-2 .icon-bar + .icon-bar {
+    margin-top: 4px; }
+  
+  .navbar-inverse .navbar-toggle-2 {
+    border-color: #FFFFFF; }
+    .navbar-inverse .navbar-toggle-2:hover, .navbar-inverse .navbar-toggle-2:focus {
+      background-color: #DE0000; }
+    .navbar-inverse .navbar-toggle-2 .icon-bar {
+      background-color: #fff; }
+   
+/****/
+
+
+/** Estilo boton UPLOAD **/
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+/****/
+
+
+.rojo {
+	color: #EF0000;
+}
+h3 {
+	color: #0B1D33;
+}
+
+
+.star:before {
+	content: "* ";
+	color: #EF0000;
+	font-size: 1.6em;
+	vertical-align: sub;
+}
+
+/** Avatar ****/
+.avatar-frame {
+	border: 1px solid #fff;
+}
+.avatar-frame,.avatar-frame img{
+	width: 120px;
+	height: 120px;
+	-webkit-border-radius: 50%; /* Saf3+, Chrome */
+	border-radius: 50%; /* Opera 10.5, IE 9 */
+	/*-moz-border-radius: 50%;  Disabled for FF1+ */
+	}
+/****/
+
+
+
+
+
+
+
+
+
+/* ######### SIN USO ############################################################## */
+
+
+
+.staticBg {
+	background: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	font-size: 1.5em;
+}
+
+.webDesignSection {
+	background-image: url('/portal2/img/bgs/bgSect_1.jpg');
+	background-size: 100% 100%;
+	padding-bottom: 10px;
+}
+
+.generalContactSection {
+	padding-top: 10px;
+	color: white;
+    background: #030D21;
+}
+.generalContactSection li a b {
+	color: white;
+}
+
+.shadowed1 {
+	text-shadow: 3px 3px 5px rgba(61, 61, 61, 1);
+}
+
+.shadowed2 {
+	text-shadow: 3px 3px 4px rgba(150, 150, 150, 1);
+}
+
+.shadowed3 {
+	text-shadow: -1px 1px 10px rgba(0, 0, 0, 1);
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #0c7acb;
+    background: #fff;
+}
+
+
+
+.link2, .link2:hover, .link2:focus, .link2:active, .link2.active {
+	color: #fff;
+}
+
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #233140;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #01040c;
+}
+
+
+/********************/
+
+.padd {
+  padding: 20px;
+}
+
+.ulClass {
+	font-size: 1.5em;
+}
+
+.ulClass2 {
+	font-size: 1.2em;
+}
+
+
+
+.factSection1 {
+	background-image: url('/portal2/img/bgs/bgSect_fact_1.jpg');
+	background-size: 100% 100%;
+}
+
+.hCutomClass1 {
+	color: white;
+}
+
+.pagWebSection0 {
+	background-image: url('/portal2/img/bgs/bgSect_pagWeb_0.jpg');
+	background-size: 100% 100%;
+}
+
+.pagWebSection1 {
+	background: #F79D00;
+	color: white;
+	font-size: 1.5em;
+}
+
+.pagWebSection2 {
+	background-image: url('/portal2/img/bgs/bgSect_pagWeb_1.jpg');
+	background-size: 100% 100%;
+}
+
+.pagWebSection3 {
+	background: #570303;
+	color: white;
+	font-size: 1em;
+}
+
+.enterpriseSection0 {
+	background-image: url('/portal2/img/bgs/bgSect_empr_1.jpg');
+	background-size: 100% 100%;
+}
+
+.enterpriseSection1 {
+	background: #038dab;
+	color: white;
+	font-size: 1.5em;
+}
+
+.contactSection0 {
+	background-image: url('/portal2/img/bgs/bgSect_cont_1.jpg');
+	background-size: 100% 100%;
+}
+
+/*** Pricing Table ******************/
+.flat .plan {
+  border: 2px solid #0474C5;
+  border-radius: 6px;
+  list-style: none;
+  padding: 0 0 20px;
+  margin: 0 0 15px;
+  background: #030D21;
+  text-align: center;
+}
+.flat .plan li {
+  padding: 10px 15px;
+  color: #ccc;
+  font-size: 1.2em;
+  border-top: 1px solid #092359;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.flat .plan li.plan-price {
+  border-top: 0;
+}
+.flat .plan li.plan-name {
+  border-radius: 6px 6px 0 0;
+  padding: 15px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  background: #0474C5;
+  margin-bottom: 30px;
+  border-top: 0;
+}
+.flat .plan li > strong {
+  color: #0474C5;
+}
+.flat .plan li.plan-action {
+  margin-top: 10px;
+  border-top: 0;
+}
+.flat .plan.featured {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.flat .plan.featured li.plan-name {
+  background: #0474C5;
+}
+.flat .plan.featured:hover li.plan-name {
+  background: #fff;
+  color: #0474C5;
+}
+.flat .plan:hover li.plan-name {
+  background: #fff;
+  color: #0474C5;
+}
+/************************************/
+
+
+/*** Comparing Table*****/
+.compTableHeader {
+	text-align: center;
+	color: white;
+	background: #092359;
+	vertical-align: top;
+	width: 33%;
+}
+.remarkTableHeader {
+	text-align: center;
+	color: white;
+	background: #0474C5;
+	vertical-align: top;
+	vertical-align: top;
+	width: 34%;	
+}
+.remarkCell {
+	color: white;
+	background: #030D21;
+}
+/************************************/
+
+.phoneFloatingDiv {
+	z-index: 90000000;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	width: 200px;
+	padding: 10px 5px 5px 5px;
+	color: white;
+	font-size: 1.5em;
+	background-color: rgb(0,24,63);
+	border-color: rgb(0,33,85);
+	border-style: solid;
+	border-width: 4px;
+	text-align: left;
+	-webkit-border-radius: 0 10px 0 0;
+	-moz-border-radius: 0 10px 0 0;
+	border-radius: 0 10px 0 0;
+}
+.phoneFloatingDiv a {
+	color: white;
+}
+/************************************/
+footer{
+	color:#ccc;
+	font-size:12px;
+
+	position:relative;
+
+	background-color:#31353a;
+
+	background-image:-webkit-linear-gradient(top, #31353a, #2f3337);
+	background-image:-moz-linear-gradient(top, #31353a, #2f3337);
+	background-image:linear-gradient(top, #31353a, #2f3337);
+}
